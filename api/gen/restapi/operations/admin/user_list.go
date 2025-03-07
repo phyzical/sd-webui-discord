@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/SpenserCai/sd-webui-discord/api/gen/models"
+	"github.com/phyzical/sd-webui-discord/api/gen/models"
 )
 
 // UserListHandlerFunc turns a function with the right signature into a user list handler

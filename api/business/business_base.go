@@ -9,9 +9,9 @@
 package business
 
 import (
-	apiMiddleware "github.com/SpenserCai/sd-webui-discord/api/middleware"
-	"github.com/SpenserCai/sd-webui-discord/global"
-	DbotUser "github.com/SpenserCai/sd-webui-discord/user"
+	apiMiddleware "github.com/phyzical/sd-webui-discord/api/middleware"
+	"github.com/phyzical/sd-webui-discord/global"
+	DbotUser "github.com/phyzical/sd-webui-discord/user"
 	"golang.org/x/oauth2"
 )
 

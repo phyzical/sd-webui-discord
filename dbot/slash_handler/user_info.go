@@ -11,7 +11,7 @@ package slash_handler
 import (
 	"log"
 
-	"github.com/SpenserCai/sd-webui-discord/cluster"
+	"github.com/phyzical/sd-webui-discord/cluster"
 
 	"github.com/bwmarrin/discordgo"
 )

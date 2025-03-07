@@ -1,7 +1,7 @@
 /*
  * @Author: SpenserCai
  * @Date: 2023-10-01 10:22:20
- * @version: 
+ * @version:
  * @LastEditors: SpenserCai
  * @LastEditTime: 2023-10-09 12:51:09
  * @Description: file content
@@ -38,13 +38,13 @@ export default [
     label: 'Go to Discord',
     href: '/api/open_discord_server',
     target: '_blank'
-    
+
   },
   {
     icon: mdiGithub,
     label: 'GitHub',
     isDesktopNoLabel: true,
-    href: 'https://github.com/SpenserCai/sd-webui-discord',
+    href: 'https://github.com/phyzical/sd-webui-discord',
     target: '_blank'
   },
   {

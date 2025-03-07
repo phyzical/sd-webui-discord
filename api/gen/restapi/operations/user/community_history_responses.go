@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	"github.com/SpenserCai/sd-webui-discord/api/gen/models"
+	"github.com/phyzical/sd-webui-discord/api/gen/models"
 )
 
 // CommunityHistoryOKCode is the HTTP code returned for type CommunityHistoryOK

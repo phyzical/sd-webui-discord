@@ -9,9 +9,9 @@
 package dbot
 
 import (
-	shdl "github.com/SpenserCai/sd-webui-discord/dbot/slash_handler"
-	"github.com/SpenserCai/sd-webui-discord/global"
 	"github.com/bwmarrin/discordgo"
+	shdl "github.com/phyzical/sd-webui-discord/dbot/slash_handler"
+	"github.com/phyzical/sd-webui-discord/global"
 )
 
 // 权限验证

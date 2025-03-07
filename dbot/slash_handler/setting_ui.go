@@ -14,9 +14,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SpenserCai/sd-webui-discord/cluster"
-	"github.com/SpenserCai/sd-webui-discord/global"
-	"github.com/SpenserCai/sd-webui-discord/user"
+	"github.com/phyzical/sd-webui-discord/cluster"
+	"github.com/phyzical/sd-webui-discord/global"
+	"github.com/phyzical/sd-webui-discord/user"
 
 	"github.com/bwmarrin/discordgo"
 )

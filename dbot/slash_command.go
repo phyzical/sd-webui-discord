@@ -12,9 +12,9 @@ import (
 	"log"
 	"reflect"
 
-	"github.com/SpenserCai/sd-webui-discord/dbot/slash_handler"
-	"github.com/SpenserCai/sd-webui-discord/global"
-	"github.com/SpenserCai/sd-webui-discord/utils"
+	"github.com/phyzical/sd-webui-discord/dbot/slash_handler"
+	"github.com/phyzical/sd-webui-discord/global"
+	"github.com/phyzical/sd-webui-discord/utils"
 
 	"github.com/bwmarrin/discordgo"
 )

@@ -12,12 +12,12 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/SpenserCai/sd-webui-discord/api/gen/models"
-	ServiceOperations "github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations/user"
-	"github.com/SpenserCai/sd-webui-discord/global"
-	DbotUser "github.com/SpenserCai/sd-webui-discord/user"
 	"github.com/SpenserCai/sd-webui-go/intersvc"
 	"github.com/go-openapi/runtime/middleware"
+	"github.com/phyzical/sd-webui-discord/api/gen/models"
+	ServiceOperations "github.com/phyzical/sd-webui-discord/api/gen/restapi/operations/user"
+	"github.com/phyzical/sd-webui-discord/global"
+	DbotUser "github.com/phyzical/sd-webui-discord/user"
 )
 
 func (b BusinessBase) SetCommunityHistoryHandler() {

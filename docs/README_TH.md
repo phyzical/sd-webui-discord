@@ -21,11 +21,11 @@ Support For Clustered Stable Diffusion WebUi Discord Bot
     <img src="https://img.shields.io/github/license/SpenserCai/sd-webui-go?color=blueviolet" alt="license">
   </a>
   <img src="https://img.shields.io/badge/Go-1.19+-blue" alt="go">
-  <a href="https://github.com/SpenserCai/sd-webui-discord/releases">
+  <a href="https://github.com/phyzical/sd-webui-discord/releases">
     <img src="https://img.shields.io/github/v/release/SpenserCai/sd-webui-discord?color=rgb(255%2C0%2C0)&include_prereleases" alt="release">
   </a>
-  <a href="https://goreportcard.com/report/github.com/SpenserCai/sd-webui-discord">
-    <img src="https://goreportcard.com/badge/github.com/SpenserCai/sd-webui-discord" alt="GoReportCard">
+  <a href="https://goreportcard.com/report/github.com/phyzical/sd-webui-discord">
+    <img src="https://goreportcard.com/badge/github.com/phyzical/sd-webui-discord" alt="GoReportCard">
   </a>
   <a href="https://discord.gg/uNJpzEE4sZ">
     <img src="https://discordapp.com/api/guilds/1140177489008807966/widget.png?style=shield"   alt="Discord Server">
@@ -37,7 +37,7 @@ Support For Clustered Stable Diffusion WebUi Discord Bot
 
 ## การแนะนำ
 SD-WEBUI-DISCORD นี่คือบอท Discord ที่พัฒนาโดยใช้ Go language สำหรับ [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui). มันใช้ [sd-webui-go](https://github.com/SpenserCai/sd-webui-go) เพื่อเรียกใช้ sd-webui API และรองรับการใช้งานคลัสเตอร์ของโหนด sd-webui หลายโหนดพร้อมการกำหนดเวลาและการจัดสรรอัตโนมัติ
-ขณะเดียวกันก็ยังมี [sd-webui-discord-ex](https://github.com/SpenserCai/sd-webui-discord-ex), ซึ่งเป็นส่วนขยายบน stable-diffusion-webui ที่คุณสามารถติดตั้งและใช้งานได้โดยตรง มันจะอัปเดตโดยอัตโนมัติทุกครั้งที่คุณรีสตาร์ท SD WEBUI และรับฟีเจอร์ใหม่ในอนาคต
+ขณะเดียวกันก็ยังมี [sd-webui-discord-ex](https://github.com/phyzical/sd-webui-discord-ex), ซึ่งเป็นส่วนขยายบน stable-diffusion-webui ที่คุณสามารถติดตั้งและใช้งานได้โดยตรง มันจะอัปเดตโดยอัตโนมัติทุกครั้งที่คุณรีสตาร์ท SD WEBUI และรับฟีเจอร์ใหม่ในอนาคต
 
 ## ภาพถ่ายหน้าจอ
 
@@ -50,8 +50,8 @@ SD-WEBUI-DISCORD นี่คือบอท Discord ที่พัฒนาโ
  - รองรับคำสั่ง `สร้างใหม่` และ `ลบ` ใน `txt2img` 
 ### **2023-09-22:** 
  - รองรับคำสั่ง `setting_ui`
- - ดีกว่า `txt2img` มี UI ที่ตอบสนอง,ขอขอบคุณ [venetanji](https://github.com/venetanji) ที่สนับสนุนสิ่งนี้! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
- - เพิ่มประสิทธิภาพคำสั่งเพิ่มเมื่อบอทเริ่มทำงาน, ขอขอบคุณ [venetanji](https://github.com/venetanji) ที่สนับสนุนสิ่งนี้! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
+ - ดีกว่า `txt2img` มี UI ที่ตอบสนอง,ขอขอบคุณ [venetanji](https://github.com/venetanji) ที่สนับสนุนสิ่งนี้! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
+ - เพิ่มประสิทธิภาพคำสั่งเพิ่มเมื่อบอทเริ่มทำงาน, ขอขอบคุณ [venetanji](https://github.com/venetanji) ที่สนับสนุนสิ่งนี้! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
 ### **2023-09-10:** รองรับภาษาจากตำแหน่งที่อยู่ท้องถิ่น
 ### **2023-09-05:** ศูนย์ผู้ใช้สนับสนุนบน Windows
 ### **2023-09-04:** รองรับ การสร้างภาพจากภาพ `img2img`
@@ -188,7 +188,7 @@ Extension: [sd-webui-deoldify](https://github.com/SpenserCai/sd-webui-deoldify)
 
 ***
 
-1.ดาวน์โหลด เวอร์ชั่นล่าสุดจาก [ที่นี่](https://github.com/SpenserCai/sd-webui-discord/releases/latest).
+1.ดาวน์โหลด เวอร์ชั่นล่าสุดจาก [ที่นี่](https://github.com/phyzical/sd-webui-discord/releases/latest).
 
 2.สร้างบัญชีบอทบน Discord และรับโทเค็น [วิธีสร้างแอป Discord](https://discord.com/developers/docs/getting-started).
 

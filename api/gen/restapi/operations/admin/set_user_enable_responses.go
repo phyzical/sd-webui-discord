@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	"github.com/SpenserCai/sd-webui-discord/api/gen/models"
+	"github.com/phyzical/sd-webui-discord/api/gen/models"
 )
 
 // SetUserEnableOKCode is the HTTP code returned for type SetUserEnableOK

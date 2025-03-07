@@ -14,10 +14,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/SpenserCai/sd-webui-discord/global"
-	"github.com/SpenserCai/sd-webui-discord/user"
-	"github.com/SpenserCai/sd-webui-discord/utils"
 	"github.com/SpenserCai/sd-webui-go/intersvc"
+	"github.com/phyzical/sd-webui-discord/global"
+	"github.com/phyzical/sd-webui-discord/user"
+	"github.com/phyzical/sd-webui-discord/utils"
 
 	"github.com/bwmarrin/discordgo"
 )
@@ -286,7 +286,7 @@ func (shdl SlashHandler) MessageEmbedTemplate() *discordgo.MessageEmbed {
 	}()
 	bUrl := func() string {
 		if global.Config.Discord.BotUrl == "" {
-			return "https://github.com/SpenserCai/sd-webui-discord"
+			return "https://github.com/phyzical/sd-webui-discord"
 		} else {
 			return global.Config.Discord.BotUrl
 		}

@@ -11,10 +11,10 @@ package slash_handler
 import (
 	"encoding/json"
 
-	"github.com/SpenserCai/sd-webui-discord/utils"
+	"github.com/phyzical/sd-webui-discord/utils"
 
-	"github.com/SpenserCai/sd-webui-discord/cluster"
-	"github.com/SpenserCai/sd-webui-discord/global"
+	"github.com/phyzical/sd-webui-discord/cluster"
+	"github.com/phyzical/sd-webui-discord/global"
 
 	"github.com/SpenserCai/sd-webui-go/intersvc"
 	"github.com/bwmarrin/discordgo"

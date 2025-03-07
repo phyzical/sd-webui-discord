@@ -12,11 +12,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/SpenserCai/sd-webui-discord/api/business"
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi"
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations"
-	"github.com/SpenserCai/sd-webui-discord/api/middleware"
-	"github.com/SpenserCai/sd-webui-discord/global"
+	"github.com/phyzical/sd-webui-discord/api/business"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations"
+	"github.com/phyzical/sd-webui-discord/api/middleware"
+	"github.com/phyzical/sd-webui-discord/global"
 
 	"github.com/go-openapi/loads"
 	"github.com/jessevdk/go-flags"

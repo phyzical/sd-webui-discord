@@ -13,7 +13,7 @@
 # SD-WEBUI-DISCORD
 Support For Clustered Stable Diffusion WebUi Discord Bot
 
-[Mult-Language README](https://github.com/SpenserCai/sd-webui-discord/tree/main/docs)
+[Mult-Language README](https://github.com/phyzical/sd-webui-discord/tree/main/docs)
 </div>
 
 <div align="center">
@@ -21,11 +21,11 @@ Support For Clustered Stable Diffusion WebUi Discord Bot
     <img src="https://img.shields.io/github/license/SpenserCai/sd-webui-go?color=blueviolet" alt="license">
   </a>
   <img src="https://img.shields.io/badge/Go-1.19+-blue" alt="go">
-  <a href="https://github.com/SpenserCai/sd-webui-discord/releases">
+  <a href="https://github.com/phyzical/sd-webui-discord/releases">
     <img src="https://img.shields.io/github/v/release/SpenserCai/sd-webui-discord?color=rgb(255%2C0%2C0)&include_prereleases" alt="release">
   </a>
-  <a href="https://goreportcard.com/report/github.com/SpenserCai/sd-webui-discord">
-    <img src="https://goreportcard.com/badge/github.com/SpenserCai/sd-webui-discord" alt="GoReportCard">
+  <a href="https://goreportcard.com/report/github.com/phyzical/sd-webui-discord">
+    <img src="https://goreportcard.com/badge/github.com/phyzical/sd-webui-discord" alt="GoReportCard">
   </a>
   <a href="https://discord.gg/uNJpzEE4sZ">
     <img src="https://discordapp.com/api/guilds/1140177489008807966/widget.png?style=shield"   alt="Discord Server">
@@ -37,7 +37,7 @@ Support For Clustered Stable Diffusion WebUi Discord Bot
 
 ## Introduction
 SD-WEBUI-DISCORD is a Discord bot developed in Go language for [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui). It utilizes the [sd-webui-go](https://github.com/SpenserCai/sd-webui-go) to invoke the sd-webui API and supports cluster deployment of multiple sd-webui nodes with automatic scheduling and allocation.
-At the same time, there is also the [sd-webui-discord-ex](https://github.com/SpenserCai/sd-webui-discord-ex), which is an extension on the stable-diffusion-webui that you can install and use directly. It will automatically update every time you restart SD webui.
+At the same time, there is also the [sd-webui-discord-ex](https://github.com/phyzical/sd-webui-discord-ex), which is an extension on the stable-diffusion-webui that you can install and use directly. It will automatically update every time you restart SD webui.
 
 ## Screenshots
 
@@ -58,8 +58,8 @@ At the same time, there is also the [sd-webui-discord-ex](https://github.com/Spe
  - `2023-09-23 `: Support `Retry` and `Delete` in `txt2img` command
  - `2023-09-22 ` 
      - Support `setting_ui` command
-     - Better `txt2img` response ui,thanks for [venetanji](https://github.com/venetanji) support that! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
-     - Optimize command add when bot start,thanks for [venetanji](https://github.com/venetanji) support that! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
+     - Better `txt2img` response ui,thanks for [venetanji](https://github.com/venetanji) support that! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
+     - Optimize command add when bot start,thanks for [venetanji](https://github.com/venetanji) support that! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
  - `2023-09-10 `: Support local language
  - `2023-09-05 `: Support User Center on Windows
  - `2023-09-04 `: Support Image to Image
@@ -143,7 +143,7 @@ The command is still under active development, and there are two ways to experie
 
 
 ## Documentation
-Detailed tutorial reference [Wiki](https://github.com/SpenserCai/sd-webui-discord/wiki)
+Detailed tutorial reference [Wiki](https://github.com/phyzical/sd-webui-discord/wiki)
 
 
 ## Participating

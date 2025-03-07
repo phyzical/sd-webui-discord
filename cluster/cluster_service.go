@@ -9,8 +9,8 @@
 package cluster
 
 import (
-	"github.com/SpenserCai/sd-webui-discord/config"
-	"github.com/SpenserCai/sd-webui-discord/queue"
+	"github.com/phyzical/sd-webui-discord/config"
+	"github.com/phyzical/sd-webui-discord/queue"
 
 	"log"
 

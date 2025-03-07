@@ -10,10 +10,10 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations"
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations/admin"
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations/system"
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations/user"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations/admin"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations/system"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations/user"
 )
 
 //go:generate swagger generate server --target ../../gen --name APIService --spec ../../swagger.yml --principal interface{}

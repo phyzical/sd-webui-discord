@@ -5,7 +5,7 @@
 # SD-WEBUI-DISCORD
 دعم لبوت ديسكورد لواجهة مستخدم ستيبل ديفيوجن
 
-[README بعدة لغات](https://github.com/SpenserCai/sd-webui-discord/tree/main/docs)
+[README بعدة لغات](https://github.com/phyzical/sd-webui-discord/tree/main/docs)
 </div>
 
 <div align="center">
@@ -13,11 +13,11 @@
     <img src="https://img.shields.io/github/license/SpenserCai/sd-webui-go?color=blueviolet" alt="license">
   </a>
   <img src="https://img.shields.io/badge/Go-1.19+-blue" alt="go">
-  <a href="https://github.com/SpenserCai/sd-webui-discord/releases">
+  <a href="https://github.com/phyzical/sd-webui-discord/releases">
     <img src="https://img.shields.io/github/v/release/SpenserCai/sd-webui-discord?color=rgb(255%2C0%2C0)&include_prereleases" alt="release">
   </a>
-  <a href="https://goreportcard.com/report/github.com/SpenserCai/sd-webui-discord">
-    <img src="https://goreportcard.com/badge/github.com/SpenserCai/sd-webui-discord" alt="GoReportCard">
+  <a href="https://goreportcard.com/report/github.com/phyzical/sd-webui-discord">
+    <img src="https://goreportcard.com/badge/github.com/phyzical/sd-webui-discord" alt="GoReportCard">
   </a>
   <a href="https://discord.gg/uNJpzEE4sZ">
     <img src="https://discordapp.com/api/guilds/1140177489008807966/widget.png?style=shield"   alt="Discord Server">
@@ -29,7 +29,7 @@
 
 ## المقدمة
 SD-WEBUI-DISCORD هو بوت ديسكورد تم تطويره بلغة Go لصالح [واجهة مستخدم مستقرة للتفاعل عبر الويب](https://github.com/AUTOMATIC1111/stable-diffusion-webui). يستفيد من [sd-webui-go](https://github.com/SpenserCai/sd-webui-go) لاستدعاء واجهة برمجة التطبيقات لـ sd-webui ويدعم نشر أكثر من وحدة sd-webui بتكوين تلقائي وتوزيع ذكي.
-في الوقت نفسه، يوجد أيضًا [sd-webui-discord-ex](https://github.com/SpenserCai/sd-webui-discord-ex)، وهو امتداد لواجهة المستخدم الثابتة للتفاعل عبر الويب يمكنك تثبيته واستخدامه مباشرة. سيتم تحديثه تلقائيًا في كل مرة تقوم فيها بإعادة تشغيل SD webui.
+في الوقت نفسه، يوجد أيضًا [sd-webui-discord-ex](https://github.com/phyzical/sd-webui-discord-ex)، وهو امتداد لواجهة المستخدم الثابتة للتفاعل عبر الويب يمكنك تثبيته واستخدامه مباشرة. سيتم تحديثه تلقائيًا في كل مرة تقوم فيها بإعادة تشغيل SD webui.
 
 ## لقطات الشاشة
 
@@ -50,8 +50,8 @@ SD-WEBUI-DISCORD هو بوت ديسكورد تم تطويره بلغة Go لصا
  - `2023-09-23`: دعم `إعادة المحاولة` و `الحذف` في أمر `txt2img`
  - `2023-09-22`:
      - دعم أمر `setting_ui`
-     - تحسين واجهة الرد في `txt2img`، شكرًا لـ [venetanji](https://github.com/venetanji) لدعمه! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
-     - تحسين إضافة الأوامر عند بدء تشغيل البوت، شكرًا لـ [venetanji](https://github.com/venetanji) لدعمه! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
+     - تحسين واجهة الرد في `txt2img`، شكرًا لـ [venetanji](https://github.com/venetanji) لدعمه! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
+     - تحسين إضافة الأوامر عند بدء تشغيل البوت، شكرًا لـ [venetanji](https://github.com/venetanji) لدعمه! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
  - `2023-09-10`: دعم اللغة المحلية
  - `2023-09-05`: دعم مركز المستخدم على نظام Windows
  - `2023-09-04`: دعم تحويل الصورة إلى صورة
@@ -71,8 +71,8 @@ SD-WEBUI-DISCORD هو بوت ديسكورد تم تطويره بلغة Go لصا
  - `23 سبتمبر 2023`: دعم `إعادة المحاولة` و `الحذف` في أمر `txt2img`
  - `22 سبتمبر 2023` 
      - دعم أمر `setting_ui`
-     - تحسين واجهة الاستجابة لأمر `txt2img`، شكرًا لـ [venetanji](https://github.com/venetanji) للدعم! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
-     - تحسين إضافة الأوامر عند بدء تشغيل البوت، شكرًا لـ [venetanji](https://github.com/venetanji) للدعم! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
+     - تحسين واجهة الاستجابة لأمر `txt2img`، شكرًا لـ [venetanji](https://github.com/venetanji) للدعم! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
+     - تحسين إضافة الأوامر عند بدء تشغيل البوت، شكرًا لـ [venetanji](https://github.com/venetanji) للدعم! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
  - `10 سبتمبر 2023`: دعم اللغة المحلية
  - `5 سبتمبر 2023`: دعم مركز المستخدم على نظام Windows
  - `4 سبتمبر 2023`: دعم من الصورة إلى الصورة
@@ -156,7 +156,7 @@ SD-WEBUI-DISCORD هو بوت ديسكورد تم تطويره بلغة Go لصا
 
 
 ## الوثائق
-للإحالة إلى الدورة الدراسية المفصلة [الويكي](https://github.com/SpenserCai/sd-webui-discord/wiki)
+للإحالة إلى الدورة الدراسية المفصلة [الويكي](https://github.com/phyzical/sd-webui-discord/wiki)
 
 
 ## المشاركة

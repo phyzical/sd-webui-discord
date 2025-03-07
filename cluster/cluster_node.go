@@ -9,7 +9,7 @@
 package cluster
 
 import (
-	"github.com/SpenserCai/sd-webui-discord/queue"
+	"github.com/phyzical/sd-webui-discord/queue"
 
 	webui "github.com/SpenserCai/sd-webui-go"
 )

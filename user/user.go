@@ -15,9 +15,9 @@ import (
 
 	"reflect"
 
-	"github.com/SpenserCai/sd-webui-discord/config"
-	"github.com/SpenserCai/sd-webui-discord/user/db"
-	"github.com/SpenserCai/sd-webui-discord/user/db/db_backend"
+	"github.com/phyzical/sd-webui-discord/config"
+	"github.com/phyzical/sd-webui-discord/user/db"
+	"github.com/phyzical/sd-webui-discord/user/db/db_backend"
 )
 
 // 权限表,如果命令出现再某个role中，则代表只有这个role的用户才能使用这个命令，key是role，value是命令

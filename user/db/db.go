@@ -14,8 +14,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/SpenserCai/sd-webui-discord/config"
-	"github.com/SpenserCai/sd-webui-discord/user/db/db_backend"
+	"github.com/phyzical/sd-webui-discord/config"
+	"github.com/phyzical/sd-webui-discord/user/db/db_backend"
 	"gorm.io/gorm"
 )
 

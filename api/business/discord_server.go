@@ -9,10 +9,10 @@
 package business
 
 import (
-	"github.com/SpenserCai/sd-webui-discord/api/gen/models"
-	ServiceOperations "github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations/system"
-	"github.com/SpenserCai/sd-webui-discord/global"
 	"github.com/go-openapi/runtime/middleware"
+	"github.com/phyzical/sd-webui-discord/api/gen/models"
+	ServiceOperations "github.com/phyzical/sd-webui-discord/api/gen/restapi/operations/system"
+	"github.com/phyzical/sd-webui-discord/global"
 )
 
 func (b BusinessBase) SetDiscordServerHandler() {

@@ -24,7 +24,7 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	"golang.org/x/net/netutil"
 
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations"
 )
 
 const (

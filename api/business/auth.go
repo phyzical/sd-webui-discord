@@ -12,13 +12,13 @@ import (
 	"log"
 	"net/http"
 
-	ServiceOperations "github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations/user"
-	apiMiddleware "github.com/SpenserCai/sd-webui-discord/api/middleware"
-	"github.com/SpenserCai/sd-webui-discord/global"
-	DbotUser "github.com/SpenserCai/sd-webui-discord/user"
 	"github.com/bwmarrin/discordgo"
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
+	ServiceOperations "github.com/phyzical/sd-webui-discord/api/gen/restapi/operations/user"
+	apiMiddleware "github.com/phyzical/sd-webui-discord/api/middleware"
+	"github.com/phyzical/sd-webui-discord/global"
+	DbotUser "github.com/phyzical/sd-webui-discord/user"
 )
 
 type AuthResponse struct {

@@ -16,10 +16,10 @@ import (
 
 	"log"
 
-	DbotUser "github.com/SpenserCai/sd-webui-discord/user"
+	DbotUser "github.com/phyzical/sd-webui-discord/user"
 
-	"github.com/SpenserCai/sd-webui-discord/global"
 	"github.com/golang-jwt/jwt/v5"
+	"github.com/phyzical/sd-webui-discord/global"
 )
 
 func ValidateJwt(bearerHeader string) (interface{}, error) {

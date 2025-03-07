@@ -12,12 +12,12 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/SpenserCai/sd-webui-discord/user"
+	"github.com/phyzical/sd-webui-discord/user"
 
 	"reflect"
 
-	"github.com/SpenserCai/sd-webui-discord/cluster"
-	"github.com/SpenserCai/sd-webui-discord/global"
+	"github.com/phyzical/sd-webui-discord/cluster"
+	"github.com/phyzical/sd-webui-discord/global"
 
 	"github.com/bwmarrin/discordgo"
 )

@@ -1,49 +1,49 @@
 {
-    "sd_webui":{
-        "servers":[
+    "sd_webui": {
+        "servers": [
             {
-                "name":"webui-1",
-                "host":"127.0.0.1:7860",
-                "max_concurrent":5,
-                "max_queue":100,
-                "max_vram":"20G"
+                "name": "webui-1",
+                "host": "127.0.0.1:7860",
+                "max_concurrent": 5,
+                "max_queue": 100,
+                "max_vram": "20G"
             }
         ],
-        "default_setting":{}
+        "default_setting": {}
     },
-    "discord":{
-        "app_id":"<your app id here>",
-        "token":"<your token here>",
-        "client_secret":"<your client secret here>",
-        "oauth2_redirect_base_url":"http://127.0.0.1:18890",
-        "server_id":"<your servers id here if empty all servers>",
-        "bot_name":"SD-WEBUI-BOT",
-        "bot_avatar":"https://raw.githubusercontent.com/SpenserCai/sd-webui-discord/main/res/logo.png",
-        "bot_url":"https://github.com/SpenserCai/sd-webui-discord",
-        "discord_server_url":"https://discord.com/invite/uNJpzEE4sZ"
+    "discord": {
+        "app_id": "<your app id here>",
+        "token": "<your token here>",
+        "client_secret": "<your client secret here>",
+        "oauth2_redirect_base_url": "http://127.0.0.1:18890",
+        "server_id": "<your servers id here if empty all servers>",
+        "bot_name": "SD-WEBUI-BOT",
+        "bot_avatar": "https://raw.githubusercontent.com/SpenserCai/sd-webui-discord/main/res/logo.png",
+        "bot_url": "https://github.com/phyzical/sd-webui-discord",
+        "discord_server_url": "https://discord.com/invite/uNJpzEE4sZ"
     },
-    "user_center":{
-        "enable":true,
-        "db_config":{
-            "type":"sqlite",
-            "dsn":"./user_center.db"
+    "user_center": {
+        "enable": true,
+        "db_config": {
+            "type": "sqlite",
+            "dsn": "./user_center.db"
         },
-        "must_register":true,
-        "enable_credit":false
+        "must_register": true,
+        "enable_credit": false
     },
-    "website":{
-        "api":{
-            "host":"127.0.0.1",
-            "port":18890,
-            "jwt_secret":"<your jwt secret here>",
-            "auth_callback_url":"http://127.0.0.1:18891/#/app"
+    "website": {
+        "api": {
+            "host": "127.0.0.1",
+            "port": 18890,
+            "jwt_secret": "<your jwt secret here>",
+            "auth_callback_url": "http://127.0.0.1:18891/#/app"
         },
-        "web":{
-            "start_with_server":true,
-            "open_browser":true,
-            "host":"127.0.0.1",
-            "port":18891
+        "web": {
+            "start_with_server": true,
+            "open_browser": true,
+            "host": "127.0.0.1",
+            "port": 18891
         }
     },
-    "disable_return_gen_info":true
+    "disable_return_gen_info": true
 }

@@ -11,8 +11,8 @@ package slash_handler
 import (
 	"strconv"
 
-	"github.com/SpenserCai/sd-webui-discord/global"
 	"github.com/bwmarrin/discordgo"
+	"github.com/phyzical/sd-webui-discord/global"
 )
 
 func (shdl SlashHandler) ClusterStatusOptions() *discordgo.ApplicationCommand {

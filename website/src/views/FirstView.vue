@@ -1,7 +1,7 @@
 <!--
  * @Author: SpenserCai
  * @Date: 2023-10-01 10:22:20
- * @version: 
+ * @version:
  * @LastEditors: SpenserCai
  * @LastEditTime: 2023-10-04 10:41:04
  * @Description: file content
@@ -19,7 +19,7 @@ const Login = () => {
 }
 
 const Github = () => {
-  window.location.href = 'https://github.com/SpenserCai/sd-webui-discord'
+  window.location.href = 'https://github.com/phyzical/sd-webui-discord'
 }
 </script>
 

@@ -9,11 +9,11 @@
 package global
 
 import (
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations"
-	"github.com/SpenserCai/sd-webui-discord/cluster"
-	"github.com/SpenserCai/sd-webui-discord/config"
-	"github.com/SpenserCai/sd-webui-discord/user"
 	"github.com/bwmarrin/discordgo"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations"
+	"github.com/phyzical/sd-webui-discord/cluster"
+	"github.com/phyzical/sd-webui-discord/config"
+	"github.com/phyzical/sd-webui-discord/user"
 )
 
 var (

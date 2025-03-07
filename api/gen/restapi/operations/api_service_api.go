@@ -19,9 +19,9 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations/admin"
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations/system"
-	"github.com/SpenserCai/sd-webui-discord/api/gen/restapi/operations/user"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations/admin"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations/system"
+	"github.com/phyzical/sd-webui-discord/api/gen/restapi/operations/user"
 )
 
 // NewAPIServiceAPI creates a new APIService instance

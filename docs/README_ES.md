@@ -13,7 +13,7 @@
 # SD-WEBUI-DISCORD
 Soporte para bots de Discord de Stable Diffusion en clústeres
 
-[LÉEME en múltiples idiomas](https://github.com/SpenserCai/sd-webui-discord/tree/main/docs)
+[LÉEME en múltiples idiomas](https://github.com/phyzical/sd-webui-discord/tree/main/docs)
 </div>
 
 <div align="center">
@@ -21,11 +21,11 @@ Soporte para bots de Discord de Stable Diffusion en clústeres
     <img src="https://img.shields.io/github/license/SpenserCai/sd-webui-go?color=blueviolet" alt="license">
   </a>
   <img src="https://img.shields.io/badge/Go-1.19+-blue" alt="go">
-  <a href="https://github.com/SpenserCai/sd-webui-discord/releases">
+  <a href="https://github.com/phyzical/sd-webui-discord/releases">
     <img src="https://img.shields.io/github/v/release/SpenserCai/sd-webui-discord?color=rgb(255%2C0%2C0)&include_prereleases" alt="release">
   </a>
-  <a href="https://goreportcard.com/report/github.com/SpenserCai/sd-webui-discord">
-    <img src="https://goreportcard.com/badge/github.com/SpenserCai/sd-webui-discord" alt="GoReportCard">
+  <a href="https://goreportcard.com/report/github.com/phyzical/sd-webui-discord">
+    <img src="https://goreportcard.com/badge/github.com/phyzical/sd-webui-discord" alt="GoReportCard">
   </a>
   <a href="https://discord.gg/uNJpzEE4sZ">
     <img src="https://discordapp.com/api/guilds/1140177489008807966/widget.png?style=shield"   alt="Discord Server">
@@ -37,7 +37,7 @@ Soporte para bots de Discord de Stable Diffusion en clústeres
 
 ## Introducción
 SD-WEBUI-DISCORD es un bot de Discord desarrollado en Go para [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui). Utiliza [sd-webui-go](https://github.com/SpenserCai/sd-webui-go) para invocar el API de sd-webui, y soporta el despliegue en clústeres de múltiples nodos de sd-webui con planificación y alojamiento automáticos.
-Asimismo, existe también [sd-webui-discord-ex](https://github.com/SpenserCai/sd-webui-discord-ex), que es una extensión de stable-diffusion-webui que puedes instalar y usar directamente. Se actualizará automáticamente cada vez que reinicies la webui de SD.
+Asimismo, existe también [sd-webui-discord-ex](https://github.com/phyzical/sd-webui-discord-ex), que es una extensión de stable-diffusion-webui que puedes instalar y usar directamente. Se actualizará automáticamente cada vez que reinicies la webui de SD.
 ## Capturas de pantalla
 
 ![First](https://raw.githubusercontent.com/SpenserCai/sd-webui-discord/main/res/first_page_new.png)
@@ -49,8 +49,8 @@ Asimismo, existe también [sd-webui-discord-ex](https://github.com/SpenserCai/sd
  - Soporte de `Retry` (Reintentar) y `Delete` (Eliminar) en el comando `txt2img`
 ### **2023-09-22:** 
  - Soporte para el comando `setting_ui`
- - Mejora de la interfaz gráfica de respuesta `txt2img` , gracias a [venetanji](https://github.com/venetanji) por su contribución! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
- - Optimización de añadido de comandos al iniciar el bot, gracias a [venetanji](https://github.com/venetanji) por su contribución! [#5](https://github.com/SpenserCai/sd-webui-discord/pull/5)
+ - Mejora de la interfaz gráfica de respuesta `txt2img` , gracias a [venetanji](https://github.com/venetanji) por su contribución! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
+ - Optimización de añadido de comandos al iniciar el bot, gracias a [venetanji](https://github.com/venetanji) por su contribución! [#5](https://github.com/phyzical/sd-webui-discord/pull/5)
 ### **2023-09-10:** Soporte de idioma local
 ### **2023-09-05:** Soporte del Centro de Usuarios en Windows
 ### **2023-09-04:** Soporte de Image to Image
@@ -189,7 +189,7 @@ Debes instalar las siguientes extensiones en tu instalación de SD Webui:
 
 ***
 
-1.Descarga la última versión [aquí](https://github.com/SpenserCai/sd-webui-discord/releases/latest).
+1.Descarga la última versión [aquí](https://github.com/phyzical/sd-webui-discord/releases/latest).
 
 2.Crea una nueva cuenta de bot de Discord y obtén su token secreto [Cómo crear una aplicación de Discord](https://discord.com/developers/docs/getting-started).
 
