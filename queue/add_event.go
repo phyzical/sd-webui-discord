@@ -26,8 +26,8 @@ func (aq *ActionQueue) addErrorEvent(id string, reason string) {
 }
 
 // 向队列放入排队事件
-func (aq *ActionQueue) addPenddingEvent(id string) {
-	aq.addEvent(id, EventPendding, nil)
+func (aq *ActionQueue) addPendingEvent(id string) {
+	aq.addEvent(id, EventPending, nil)
 }
 
 // 向队列放入执行中事件

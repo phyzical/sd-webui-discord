@@ -64,8 +64,8 @@ func PrintEvent() {
 		event := global.ClusterManager.GetEvent()
 		eventName := "Event"
 		switch event.EventType {
-		case queue.EventPendding:
-			eventName = "Pendding"
+		case queue.EventPending:
+			eventName = "Pending"
 		case queue.EventRunning:
 			eventName = "Running"
 		case queue.EventSuccess:

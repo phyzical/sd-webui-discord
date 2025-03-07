@@ -47,7 +47,7 @@ func (aq *ActionQueue) AddTask(id string, task func() (map[string]interface{}, e
 	}
 	aq.TaskList = append(aq.TaskList, id)
 	log.Println("AddTask success:", id)
-	aq.addPenddingEvent(id)
+	aq.addPendingEvent(id)
 }
 
 // 根据任务ID取消任务

@@ -26,7 +26,7 @@ const (
 	// 任务被取消
 	EventCancel = 2
 	// 任务排队中
-	EventPendding = 3
+	EventPending = 3
 	// 任务执行中
 	EventRunning = 4
 )

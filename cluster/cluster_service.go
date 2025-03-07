@@ -75,7 +75,7 @@ func (c *ClusterService) PreProcessEvent() {
 
 	for {
 		event := <-c.NodeEventQueue
-		if event.EventType == queue.EventPendding {
+		if event.EventType == queue.EventPending {
 			c.NodesTaskMap[event.ID] = c.getNodeWithActionQueue(event.Aq)
 		} else {
 			delete(c.NodesTaskMap, event.ID)
