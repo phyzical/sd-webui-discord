@@ -32,3 +32,5 @@ website/coverage
 *.njsproj
 *.sln
 *.sw?
+.env
+user_center.db
